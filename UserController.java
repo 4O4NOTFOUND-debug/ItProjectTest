@@ -70,6 +70,7 @@ public class UserController {
     }
 
     //删除用户
+    //updated
     @RequestMapping(path = "/deleteUserById", method = RequestMethod.GET)
     public ResultInfo deleteUserById(Integer id) {
         userService.deleteById(id);
