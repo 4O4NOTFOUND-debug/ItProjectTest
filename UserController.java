@@ -56,6 +56,7 @@ public class UserController {
     }
 
     //查询所有用户列表
+    //update
     @RequestMapping(path = "/findAllUser", method = RequestMethod.GET)
     public ResultInfo findAllUser() {
         List<User> users = userService.findAll();
